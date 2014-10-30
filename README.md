@@ -1,6 +1,4 @@
-# ===========================================================================
 # FOLDER STRUCTURE:
-# ===========================================================================
 
 Vagrant
 |
@@ -13,24 +11,22 @@ Vagrant
 |_Vagrantfile - General Vagrant settings file
 |_VagrantfileReadme.txt - This file
 
-# ===========================================================================
 # COMMAND LIST:
-# ===========================================================================
 
 **INITIALIZE** Vagrant:
-`$ vagrant init 
+`$ vagrant init`
 
 **BOOT** up Vagrant:
-`$ vagrant up
+`$ vagrant up`
 
 **CONNECT** to Vagrant:
-`$ vagrant ssh
+`$ vagrant ssh`
 
 **RELOAD** provisioners:
-`$ vagrant reload --provision.
+`$ vagrant reload --provision.`
 
-**SUSPEND* Vagrant:
-`$ vagrant suspend
+**SUSPEND** Vagrant:
+`$ vagrant suspend`
 
 **SHUTDOWN** Vagrant:
-$ vagrant halt 
+`$ vagrant halt`
