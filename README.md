@@ -2,26 +2,26 @@
 
 * .vagrant - Vagrant service folder
 * bootstrap - Folder with privsioneres. Read more about Vagrant provisioning   [here](https://docs.vagrantup.com/v2/getting-started/provisioning.html)
-- bootstrap.sh - UI specific provisioner
-- bootstrap-custom.sh - Custom project related provisioner
+  * bootstrap.sh - UI specific provisioner
+  * bootstrap-custom.sh - Custom project related provisioner
 * Vagrantfile - General Vagrant settings file
 
 ## COMMAND LIST:
 
-**INITIALIZE** Vagrant:
+**Initialize** Vagrant:
 `$ vagrant init`
 
-**BOOT** up Vagrant:
+**Boot up** Vagrant:
 `$ vagrant up`
 
-**CONNECT** to Vagrant:
+**Connect** to Vagrant:
 `$ vagrant ssh`
 
-**RELOAD** provisioners:
+**Reload** provisioners:
 `$ vagrant reload --provision.`
 
-**SUSPEND** Vagrant:
+**Suspend** Vagrant:
 `$ vagrant suspend`
 
-**SHUTDOWN** Vagrant:
+**Shutdown** Vagrant:
 `$ vagrant halt`
