@@ -1,17 +1,17 @@
-# FOLDER STRUCTURE:
+## FOLDER STRUCTURE:
 
-Vagrant
-|
-|_.vagrant - Vagrant service folder
-|
-|_bootstrap - Folder with privsioneres. Read more about Vagrant provisioning [here](https://docs.vagrantup.com/v2/getting-started/provisioning.html)
-| |_bootstrap.sh - UI specific provisioner
-| |_bootstrap-custom.sh - Custom project related provisioner
-|
-|_Vagrantfile - General Vagrant settings file
-|_VagrantfileReadme.txt - This file
+Vagrant\n
+|\n
+|_.vagrant - Vagrant service folder\n
+|\n
+|_bootstrap - Folder with privsioneres. Read more about Vagrant provisioning [here](https://docs.vagrantup.com/v2/getting-started/provisioning.html)\n
+| |_bootstrap.sh - UI specific provisioner\n
+| |_bootstrap-custom.sh - Custom project related provisioner\n
+|\n
+|_Vagrantfile - General Vagrant settings file\n
+|_VagrantfileReadme.txt - This file\n
 
-# COMMAND LIST:
+## COMMAND LIST:
 
 **INITIALIZE** Vagrant:
 `$ vagrant init`
