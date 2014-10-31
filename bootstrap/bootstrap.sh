@@ -43,8 +43,8 @@ curl -sL https://deb.nodesource.com/setup | sudo bash -
 apt-get install -y nodejs
 
 ## Install Ruby 1.9.3
- echo "[INFO] Install Ruby 1.9.3:"
- sudo apt-get install ruby
+# echo "[INFO] Install Ruby 1.9.3:"
+# sudo apt-get install ruby
 
 ## Install Ruby 2.0
 echo "[INFO] Installing Ruby 2.0:"
